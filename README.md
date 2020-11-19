@@ -61,7 +61,8 @@ def checker(env):
             yield env.timeout(1) # wait a minute and check again
 
         customer = waitingShoppers.pop(0)
-        checkoutTime = customer[2] // 10 + 1
+        items = customer[1]
+        checkoutTime = items // 10 + 1
         yield env.timeout(checkoutTime)
 
         eventLog.append((customer[0], customer[1], customer[2], customer[3], env.now))
