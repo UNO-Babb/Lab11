@@ -141,3 +141,9 @@ if __name__ == '__main__':
 - Process some other data than average wait time.
 - Write a short summary of what you learned from the simulation.
   - Include the summary as a different document in your repo.
+
+## End of class
+- Add a commit message
+- Commit to GitHub
+- Sync work with Repo
+- Submit your repo link to Canvas
