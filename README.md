@@ -2,6 +2,11 @@
 
 In this lab, we will look at using Simpy to create a simple simulation of customers shopping in a grocery store. We are interested in seeing how log they have to wait to checkout based on how many checkers are working.
 
+### Install Simpy in your Code Space
+```
+pip install simpy
+```
+
 ### Imports and setup
 There are a number of things we need to setup as global variables or other packages we need to import.
 Import
